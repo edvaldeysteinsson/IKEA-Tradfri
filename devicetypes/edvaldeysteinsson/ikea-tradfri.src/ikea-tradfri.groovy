@@ -21,7 +21,7 @@
  *  Date: 2017-03-18
  */
 metadata {
-  definition (name: "IKEA-Trådfri", namespace: "edvaldeysteinsson", author: "Edvald Eysteinsson") {
+  definition (name: "IKEA-Tradfri", namespace: "edvaldeysteinsson", author: "Edvald Eysteinsson") {
     capability "Actuator"
     capability "Color Temperature"
     capability "Configuration"
