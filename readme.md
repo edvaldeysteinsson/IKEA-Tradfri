@@ -15,7 +15,7 @@ The reason for this device handler is because i wanted a bulb that behaved a bit
 - TRADFRI bulb E12 WS opal 400lm
 
 **Not supported:**
-- TRADFRI bulb E27 opal 1000lm - It's not a color temperature bulb, just dimmable
+- TRADFRI bulb E27 opal 1000lm - It's not a color temperature bulb it's just dimmable and for that you can use either the **ZLL Dimmer Bulb** or the **ZigBee Dimmer**
 
 ## Features
 - Link/Unlink light level and color temperature
