@@ -13,6 +13,9 @@ The reason for this device handler is because i wanted a bulb that behaved a bit
 - TRADFRI bulb E26 WS opal 980lm
 - TRADFRI bulb E26 WS clear 950lm
 - TRADFRI bulb E12 WS opal 400lm
+- FLOALT panel WS 30x30
+- FLOALT panel WS 30x90
+- FLOALT panel WS 60x60
 
 **Not supported:**
 - TRADFRI bulb E27 opal 1000lm - It's not a color temperature bulb it's just dimmable and for that you can use either the **ZLL Dimmer Bulb** or the **ZigBee Dimmer**
