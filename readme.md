@@ -7,15 +7,16 @@ The reason for this device handler is because i wanted a bulb that behaved a bit
 - TRADFRI bulb E27 WS opal 980lm
 - TRADFRI bulb E14 WS opal 400lm
 - TRADFRI bulb GU10 WS 400lm
+- FLOALT panel WS 30x30
+- FLOALT panel WS 30x90
+- FLOALT panel WS 60x60
 
 **Untested but should work:**
 - TRADFRI bulb E27 WS clear 950lm
 - TRADFRI bulb E26 WS opal 980lm
 - TRADFRI bulb E26 WS clear 950lm
 - TRADFRI bulb E12 WS opal 400lm
-- FLOALT panel WS 30x30
-- FLOALT panel WS 30x90
-- FLOALT panel WS 60x60
+
 
 **Not supported:**
 - TRADFRI bulb E27 opal 1000lm - It's not a color temperature bulb it's just dimmable and for that you can use either the **ZLL Dimmer Bulb** or the **ZigBee Dimmer**
@@ -34,6 +35,8 @@ There is a good explanation of how to install custom device handlers over at the
 You can also integrate GitHub into the SmartThings IDE by following [this guide](http://docs.smartthings.com/en/latest/tools-and-ide/github-integration.html) and you can ignore the first warning about "GitHub IDE integration is not supported outside the US" because it works fine outside the US.
 
 I would suggest adding this device handler before adding the IKEA Trådfri bulbs to your SmartThings hub since it will then automatically detect them and assign this handler. If you ad the handler after adding the bulbs you will need to use the IDE to assing the device type and you might need to press "reload" in the app.
+
+To reset IKEA bulb or panel, do fast power on/off six times.
 
 ![Reload tile](https://github.com/edvaldeysteinsson/IKEA-Tradfri/blob/master/images/01.png)
 
