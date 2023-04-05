@@ -163,6 +163,10 @@ def on() {
   zigbee.on()
 }
 
+def setLevel(value, rest) {
+  setLevel(value);
+}
+
 def setLevel(value) {
 // In case the level is 0 we dont want to do anything with the color temperature
   if(value == 0){
